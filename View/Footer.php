@@ -1,8 +1,6 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<!-- Footer -->
+<footer class="navbar navbar-fixed-bottom" id="footer">
+    <div class="container-fluid">
+      <h6>© 2020 All Rights Reserved.</h6>
+    </div>
+</footer>

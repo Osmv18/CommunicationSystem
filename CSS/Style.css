@@ -8,3 +8,47 @@ and open the template in the editor.
     Author     : Samuel O
 */
 
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+/*Header*/
+header{
+  background-color: red;
+  height: 12%;
+}
+header nav{
+  height: 75px;
+}
+header nav a:hover{                
+  cursor: pointer;
+  color: #ffffff;                
+}
+
+header nav a{
+  color: white;
+}
+#header.ul {
+  float: right;
+}
+/*Content margen of header*/
+#partBody{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/*Footer always down*/
+main{
+  min-height: calc(100vh - 70px - 40px);
+}
+
+/*Footer*/
+footer{
+  background-color: #085c7c;
+  bottom: 0;
+  height: 35px;
+  color: white;
+  padding: 70px;
+}
