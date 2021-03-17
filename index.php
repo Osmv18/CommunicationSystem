@@ -16,7 +16,7 @@ and open the template in the editor.
     <?php include 'View/Header.php';?>
     <main>
     <?php
-    // put your code here
+      include 'View/View_Home.php';
     ?>
     </main>
     <?php include 'View/Footer.php';?>

@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 9 mar. 2021, 21:40:43
+    Created on : 16 mar. 2021, 21:10:36
     Author     : Samuel O
 */
 
@@ -16,7 +16,6 @@ body{
 
 /*Header*/
 header{
-  background-color: red;
   height: 12%;
 }
 header nav{
@@ -24,11 +23,11 @@ header nav{
 }
 header nav a:hover{                
   cursor: pointer;
-  color: #ffffff;                
+  color: blue;                
 }
 
 header nav a{
-  color: white;
+  color: #000000;
 }
 #header.ul {
   float: right;
@@ -37,11 +36,43 @@ header nav a{
 #partBody{
   margin-top: 24px;
   margin-bottom: 24px;
+  padding: 0px 0px;
 }
 
 /*Footer always down*/
 main{
   min-height: calc(100vh - 70px - 40px);
+}
+
+/*View_Home*/
+
+.centrado{
+  position: absolute;
+  top: 17%;
+  left: 19%;
+  transform: translate(-39%, -50%);
+  color: #ffffff;
+}
+.padre {
+  width: 450px;
+  height: 80px;
+  
+  position: absolute;
+  top: 38%;
+  left: 9%;
+  transform: translate(-21%, -50%);
+  /* IMPORTANTE */
+  display: flex;
+  justify-content: center;
+}
+
+.hijo {
+  
+  color: #ffffff;
+  display:table-cell;
+  vertical-align: middle;
+  /* IMPORTANTE */
+  text-align: center;
 }
 
 /*Footer*/

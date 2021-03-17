@@ -5,9 +5,8 @@
         <group>
             <file>file:/C:/xampp/htdocs/CommunicationSystem/CSS/Style.css</file>
             <file>file:/C:/xampp/htdocs/CommunicationSystem/index.php</file>
-            <file>file:/C:/xampp/htdocs/CommunicationSystem/View/Footer.php</file>
-            <file>file:/C:/xampp/htdocs/CommunicationSystem/Controller/Controller.php</file>
             <file>file:/C:/xampp/htdocs/CommunicationSystem/View/Header.php</file>
+            <file>file:/C:/xampp/htdocs/CommunicationSystem/Model/Config.php</file>
         </group>
     </open-files>
 </project-private>
