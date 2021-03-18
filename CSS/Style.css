@@ -48,18 +48,23 @@ main{
 
 .centrado{
   position: absolute;
-  top: 17%;
-  left: 19%;
+  top: 41%;
+  left: 20%;
   transform: translate(-39%, -50%);
   color: #ffffff;
+  padding: 0px 18px 0px 18px;
+  border-radius: 15px;
+  background: #085c7c;
+  border-style: solid;
+  border-color: #cccccc;
 }
 .padre {
   width: 450px;
   height: 80px;
   
   position: absolute;
-  top: 38%;
-  left: 9%;
+  top: 59%;
+  left: 13%;
   transform: translate(-21%, -50%);
   /* IMPORTANTE */
   display: flex;
@@ -73,6 +78,10 @@ main{
   vertical-align: middle;
   /* IMPORTANTE */
   text-align: center;
+}
+
+#contacts{
+  margin-bottom: 24px;
 }
 
 /*Footer*/
