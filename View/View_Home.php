@@ -11,8 +11,8 @@
           <div class="centrado">Escuela de Ingeniería de Sistemas</div>       
           <div class="padre">
             <span class="hijo">Te damos la bienvenida a este portal 
-              en la cual podrás tener un mayor contacto con los servicios
-              que se te provee. De estudiantes para estudiantes.</span>
+              en el cual podrás tener un mayor contacto con los servicios
+              que se te proveen. <br>De estudiantes para estudiantes.</span>
           </div>
 
       </div>
