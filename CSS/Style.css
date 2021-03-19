@@ -11,7 +11,6 @@ and open the template in the editor.
 body{
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-attachment: fixed;*/
 }
 
 /*Header*/
@@ -61,7 +60,6 @@ main{
 .padre {
   width: 450px;
   height: 80px;
-  
   position: absolute;
   top: 59%;
   left: 13%;
@@ -72,7 +70,6 @@ main{
 }
 
 .hijo {
-  
   color: #ffffff;
   display:table-cell;
   vertical-align: middle;
@@ -92,3 +89,4 @@ footer{
   color: white;
   padding: 70px;
 }
+

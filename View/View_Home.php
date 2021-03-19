@@ -1,5 +1,4 @@
 <div class="container-fluid" id="partBody">
-
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -14,7 +13,6 @@
               en el cual podrás tener un mayor contacto con los servicios
               que se te proveen. <br>De estudiantes para estudiantes.</span>
           </div>
-
       </div>
       <div class="carousel-item">
         <img src="Images/Fondo_Carrousel_2.png" class="d-block w-100" alt="...">
@@ -36,7 +34,6 @@
     </button>
   </div>
 </div>
-
 <div class="container-fluid" id="contacts">
   <div class="card" style="width: 18rem;">
     <div class="card-header">
