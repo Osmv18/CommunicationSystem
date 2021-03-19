@@ -13,7 +13,7 @@
 	  <a class="nav-link" href="index.php" >Bienvenida<span class="sr-only"></span></a>
 	</li>
 	<li class="nav-item active">
-	  <a class="nav-link" href="index.php" >Iniciar sesión<span class="sr-only"></span></a>
+	  <a class="nav-link" href="index.php" >Ini sesión<span class="sr-only"></span></a>
 	</li>
       </ul>  
     </div>
