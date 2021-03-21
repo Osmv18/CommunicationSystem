@@ -8,7 +8,7 @@
 
         <ul class="nav-menu">
             <li class="nav-menu-item">
-                <a href="../index.php" class="nav-menu-link nav-link">Inicio</a>
+                <a href="../publicaciones.php" class="nav-menu-link nav-link">Inicio</a>
             </li>
             <li class="nav-menu-item dropdown">
                 <a href="#" class="nav-menu-link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
