@@ -29,6 +29,7 @@
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <script defer src="../JS/menu2.js"></script>
 
+
 </head>
 
 <body class="grid-container">
@@ -38,10 +39,10 @@
     </header>
 
     <aside class="main">
-        <?php include("view/cuenta-iz.php"); ?>
+        <?php include("view/opcion_admin.php"); ?>
     </aside>
     <article class="sidebar">
-        <?php include("view/cuenta-dr.php"); ?>
+        <?php include("view/informacion_general.php"); ?>
     </article>
 
     <footer class="footer">

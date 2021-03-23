@@ -425,16 +425,16 @@ a.btn_busqueda:hover{
     display: grid;
     gap: 10px;
     grid-template: 
-        "header" 10%
-        "sidebar" 100%
+        "header" 5%
         "main" auto
+        "sidebar" auto
         "footer" auto;
 }
 
 @media (min-width:1281px){
     .grid-container{
         grid-template-columns: auto 70% ;
-        grid-template-rows: 10% 75% auto 100%;
+        grid-template-rows: 10% auto auto 100%;
         grid-template-areas: 
         "header header"
         "main sidebar"
@@ -446,7 +446,7 @@ a.btn_busqueda:hover{
 @media (min-width:1025px) and (max-width:1280px){
     .grid-container{
         grid-template-columns: auto 75%;
-        grid-template-rows: 10% 75% auto 100%;
+        grid-template-rows: 10% auto auto 100%;
         grid-template-areas: 
         "header header"
         "main sidebar"
@@ -458,7 +458,7 @@ a.btn_busqueda:hover{
 @media (min-width:768px) and (max-width:1024px){
     .grid-container{
         grid-template-columns: auto 75%;
-        grid-template-rows: 10% 75% auto 100%;
+        grid-template-rows: 10% auto auto 100%;
         grid-template-areas: 
         "header header"
         "main sidebar"
@@ -470,7 +470,7 @@ a.btn_busqueda:hover{
 @media (min-width:768px) and (max-width:1024px) and (orientation: horizontal){
     .grid-container{
         grid-template-columns: auto 75% ;
-        grid-template-rows: 10% 75% auto 100%;
+        grid-template-rows: 10% auto auto 100%;
         grid-template-areas: 
         "header header"
         "main sidebar"
@@ -482,6 +482,8 @@ a.btn_busqueda:hover{
     /*interno*/
 
 /*SECCION DERECHA*/
+
+/*Informacion General*/
 
 #informacion{
     border-radius: 10px;
@@ -513,8 +515,54 @@ input.b{
     width: 210px;
 }
 
+.boton{
+  background-color: #085c7c;
+  font-size: 20px;
+}
+
+
+
 /*SECCION IZQUIERDA*/
 
 
+#user{
+  margin-top: 19px;
+}
+
+div.logo{
+  border-radius: 10px;
+    border: 2px solid #085c7c;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+#opciones{
+  border-radius: 5px;
+  border: 2px solid #085c7c;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 20px;
+  margin-bottom: 15%;
+}
+a.btn_opcion{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+a.btn_opcion:hover{
+  text-decoration: none;
+  background-color: #085c7c;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#opciones hr{
+  background-color: black;
+  height: 2px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
                         /* --------------------------------------------------------------*/
