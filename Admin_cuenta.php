@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,25 +30,25 @@
     <script defer src="../JS/menu2.js"></script>
 
 
-</head>
+  </head>
 
-<body class="grid-container">
+  <body class="grid-container">
 
     <header class="header">
-        <?php include("view/menu2.php"); ?>
+      <?php include("view/menu2.php"); ?>
     </header>
 
     <aside class="main">
-        <?php include("view/opcion_admin.php"); ?>
+      <?php include("view/opcion_admin.php"); ?>
     </aside>
     <article class="sidebar">
-        <?php include("view/informacion_general.php"); ?>
+      <?php include("view/informacion_general.php"); ?>
     </article>
 
     <footer class="footer">
-        <?php include("view/footer.php") ?>
+      <?php include("view/footer.php") ?>
     </footer>
 
-</body>
+  </body>
 
 </html>
