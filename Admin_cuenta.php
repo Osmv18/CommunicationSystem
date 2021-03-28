@@ -32,21 +32,22 @@
     <script defer src="../JS/menu2.js"></script>
 
   </head>
+
   <body class="grid-container">
+
     <header class="header">
-      <?php include ("view/menu2.php"); ?>
+      <?php include("view/menu2.php"); ?>
     </header>
 
-    <article class="main">
-
-      <h1>administrador de cuenta</h1>
-
+    <aside class="main">
+      <?php include("view/opcion_admin.php"); ?>
+    </aside>
+    <article class="sidebar">
+      <?php include("view/informacion_general.php"); ?>
     </article>
 
     <footer class="footer">
-      <?php include ("view/footer.php") ?>
+      <?php include("view/footer.php") ?>
     </footer>
-
-
   </body>
 </html>
