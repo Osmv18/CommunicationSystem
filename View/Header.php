@@ -1,4 +1,3 @@
-<!-- Header-->
 <header class="container-fluid" id="header">
   <nav class="navbar navbar-expand-md container">
     <a class="navbar-brand" href="index.php">
@@ -10,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
 	<li class="nav-item active">
-	  <a class="nav-link" href="index.php" >Bienvenda<span class="sr-only"></span></a>
+	  <a class="nav-link" href="index.php" >Bienvenida<span class="sr-only"></span></a>
 	</li>
 	<li class="nav-item active">
-	  <a class="nav-link" href="index.php" >Ini sesión<span class="sr-only"></span></a>
+	  <a class="nav-link" href="?c=Controller_Login" >Iniciar Sesión<span class="sr-only"></span></a>
 	</li>
       </ul>  
     </div>
