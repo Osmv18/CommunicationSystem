@@ -31,6 +31,7 @@ header nav a{
 #header.ul {
   float: right;
 }
+
 /*Content margen of header*/
 #partBody{
   margin-top: 24px;
@@ -80,7 +81,47 @@ main{
 #contacts{
   margin-bottom: 24px;
 }
+/*View_Login*/
+.form1{
+  background: rgba(0,0,0,.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 20px rgba(8, 92, 124, 1);
+  color:white;
+}
 
+.form-controler{
+  background: rgba(0,0,0,.3);
+  border-style: none;
+  transition: 0.5s ease-in;
+  outline: none;
+  box-shadow: none;
+  color:white;
+}
+.form-controler:focus{
+  color:white;
+  background: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-controler::placeholder{
+  color: white;
+}
+
+.enter{
+  background: #222A3F;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700!important;
+  color: white;
+  box-shadow: none;
+  transition: 0.5s ease-in;
+}
+
+.enter:hover{
+  color: white;
+}
 /*Footer*/
 footer{
   background-color: #085c7c;
