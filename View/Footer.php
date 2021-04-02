@@ -1,5 +1,4 @@
-<!-- No cambiar este footer- Footer de bienvenida -->
-
+<!-- No cambiar este footer - Footer de bienvenida -->
 
 <footer class="navbar navbar-fixed-bottom" id="footer">
   <div class="container-fluid">
