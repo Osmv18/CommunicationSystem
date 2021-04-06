@@ -5,22 +5,22 @@
         <div class="col-auto info-gen">
             <label for="" class="col-form-label">Nombre Completo:</label>
         </div>
-        <div class="col-auto a">
-            <input type="text"  class="form-control b" placeholder="NOMBRE" disabled >
+        <div class="col-auto a-1">
+            <input type="text"  class="form-control b-1" placeholder="NOMBRE" disabled >
         </div>
 
         <div class="col-auto info-gen">
             <label for="" class="col-form-label">Correo Electronico:</label>
         </div>
-        <div class="col-auto a">
-            <input type="text" class="form-control b" placeholder="####@##.com" disabled >
+        <div class="col-auto a-1">
+            <input type="text" class="form-control b-1" placeholder="####@##.com" disabled >
         </div>
 
         <div class="col-auto info-gen">
             <label for="" class="col-form-label">Carnet:</label>
         </div>
-        <div class="col-auto a">
-            <input type="text" class="form-control b" placeholder="CARNET" disabled >
+        <div class="col-auto a-1">
+            <input type="text" class="form-control b-1" placeholder="CARNET" disabled >
         </div>
         <br><br><br>
     </div>

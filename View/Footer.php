@@ -1,3 +1,4 @@
+
 <!-- No cambiar este footer - Footer de bienvenida
 
   Cambio en el footer - Osmin
@@ -7,4 +8,5 @@
   <div class="container-fluid">
     <h6>© 2021 All Rights.</h6>
   </div>
+
 </footer>
