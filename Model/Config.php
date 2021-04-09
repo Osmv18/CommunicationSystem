@@ -6,3 +6,12 @@
  * and open the template in the editor.
  */
 
+
+
+define("DB_NAME", "communication_system");
+
+define("DB_USER", "root");
+
+define("DB_PASSWORD", "");
+
+define("DB_HOST", "localhost");
