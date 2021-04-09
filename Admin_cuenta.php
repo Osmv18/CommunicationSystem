@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,32 +23,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
 
 
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <script defer src="../JS/menu2.js"></script>
 
 
-</head>
+  </head>
 
-<body class="grid-container">
+  <body class="grid-container">
 
     <header class="header">
-        <?php include("view/menu2.php"); ?>
+      <?php include("View/menu2.php"); ?>
     </header>
 
     <aside class="main">
-        <?php include("view/opcion_admin.php"); ?>
+      <?php include("View/opcion_admin.php"); ?>
     </aside>
     <article class="sidebar">
-        <?php include("view/informacion_general.php"); ?>
+      <?php include("View/information_general.php"); ?>
     </article>
 
     <footer class="footer">
-        <?php include("view/footer.php") ?>
+      <?php include("View/footer_2.php") ?>
     </footer>
 
-</body>
+  </body>
 
 </html>
