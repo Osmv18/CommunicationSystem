@@ -50,9 +50,7 @@ and open the template in the editor.
       include 'Controller/' . $_GET['c'] . '.php';
     } else {
       ?>
-      <aside class="sidebar">
-        <?php include ("View/busqueda.php"); ?>
-      </aside>
+      
       <article class="main">
         <?php include ("View/publications.php"); ?>
       </article>
