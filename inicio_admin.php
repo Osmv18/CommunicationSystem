@@ -42,7 +42,7 @@
       <?php include ("View/busqueda.php"); ?>
     </aside>
     <article class="main">
-      <?php include ("View/publicaciones.php"); ?>
+      <?php include ("View/publications.php"); ?>
     </article>
 
     <footer class="footer">
