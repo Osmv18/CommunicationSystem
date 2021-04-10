@@ -7,7 +7,7 @@ if ($_POST)
     $form = new publications($_POST['title'], $_POST['fecha'], $_POST['multimedia'], $_POST['fk_id_category'], $_POST['description'], $_POST['fk_id_admin']);
     $form->create();
 
-    include"View/View_correct_publication.php";
+    include"View/View_correct.php";
 }
 
 else {

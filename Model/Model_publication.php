@@ -98,7 +98,7 @@ class publications
      * @return pdo query
      */
 
-    public function delate($id = 0 )
+    public function delete($id = 0 )
     {
         $id_publication = ($id) ? $id : $this->id_publication;
         $sql = "DELATE FROM publications WHERE id_publication = '$id_publication'";
