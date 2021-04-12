@@ -39,26 +39,24 @@ and open the template in the editor.
   </head>
 
 
-  <body>
-
+  <body class="grid-container-publicaciones">
     <header class="header">
       <?php include ("View/menu2.php"); ?>
     </header>
-
     <?php
     if (isset($_GET['c'])) {
       include 'Controller/' . $_GET['c'] . '.php';
     } else {
       ?>
-      
+      <aside class="sidebar">
+        <?php include ("View/busqueda.php"); ?>
+      </aside>
       <article class="main">
         <?php include ("View/publications.php"); ?>
       </article>
     <?php } ?>
-
     <footer class="footer">
       <?php include ("View/footer_2.php") ?>
     </footer>
-
   </body>
 </html>

@@ -1,2 +1,1 @@
-
-<h1>publicaciones</h1>
+<h1>En esta sección irán las publicaciones</h1>
