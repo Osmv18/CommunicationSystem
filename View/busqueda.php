@@ -1,5 +1,5 @@
 <div id="nueva_publicacion">
-  <a href="../nueva_publicacion.php" class="btn_nueva_publicacion">Nueva Publicación</a> 
+  <a href="?c=Controller_create_publication" class="btn_nueva_publicacion">Nueva Publicación</a> 
 </div>
 <br>
 <div id="buscar">
