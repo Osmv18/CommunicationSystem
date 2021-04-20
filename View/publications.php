@@ -1,0 +1,1 @@
+<h1>En esta sección irán las publicaciones</h1>
