@@ -14,9 +14,6 @@
         <div class="form-group mx-sm-4 pb-2 text-center">
           <input type="submit" class="btn btn-block enter" value="Ingresar">
         </div>
-        <div class="form-group">
-          <span><a href="?c=#" class="forgot">Registrarse</a></span>
-        </div>
       </form>
     </div>
   </div>
