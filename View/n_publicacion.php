@@ -27,16 +27,16 @@
         <div class="col">
           <label id="l-fecha"  for="fk_id_category">Categoria:</label>
           <select id="fecha" name="fk_id_category" class="form-select" >
-            <?php // include 'Controller/Controller_read_categories.php' ?>
-            <?php // foreach ($rows_categorie as $row) { ?>
-            <option values="<?php // echo $row->id_category  ?>"><?php // echo $row->name_category  ?></option>
-            <?php // } ?>
+            <option value="" selected >--Seleccione una categoria--</option>
+            <option value="">TCU</option>
+            <option value="">PES</option>
+            <option value="">Empleo</option>
           </select>
         </div>
       </div>
 
       <label id="l-descripcion" for="description">Descripción:</label>
-      <textarea name="description" id="descripcion" cols="67" rows="5"></textarea>
+      <textarea name="description" id="descripcion" cols="60" rows="5"></textarea>
 
       <button type="submit" class="btn btn-primary btn-publicar">Publicar</button>
 

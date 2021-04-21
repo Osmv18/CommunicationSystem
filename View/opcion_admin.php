@@ -11,7 +11,7 @@
   <hr>
   <a href="#" class="btn_opcion">Informacion General</a>
   <br><br>
-  <a href="#" class="btn_opcion">Cambio de Contraseña</a> 
+  <a href="" class="btn_opcion">Cambio de Contraseña</a> 
   <br><br>
 </div>
 <br>
